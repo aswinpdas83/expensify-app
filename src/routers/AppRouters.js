@@ -10,7 +10,7 @@ import Header from '../components/Header';
 
 
 
-const AppRouter = () => (
+export default () => (
     <BrowserRouter>
         <div>
             <Header />
@@ -25,4 +25,4 @@ const AppRouter = () => (
     </BrowserRouter>
 );
 
-export default AppRouter;
+// export default AppRouter;
